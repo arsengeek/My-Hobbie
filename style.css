@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    user-select: none;
+}
+
+
+.header-container {
+    margin-top: .5vw;
+    position: absolute;
+    width: 100%;
+    height: 10vw;
+    background-color: black;
+}
+.logo {
+    position: absolute;
+    color: white;
+    width: 50%;
+    height: 5vw;
+    font-size:3vw;
+    margin:3vw 2vw;
+    z-index: 2;
+}
+.navigation {
+    width: 100%;
+    position: absolute;
+    display: flex;
+    justify-content: flex-end;
+    color: white;
+    background-color: rgb(32, 32, 32);
+}
+.nav {
+    color:white;
+    display: flex;
+    margin: 3.5vw 5vw;
+    font-size:2vw;
+    justify-content: flex-end;
+}
+.nav:hover {
+    color:white;
+    text-shadow: 0 0 5px white;
+    display: flex;
+    margin: 3.5vw 5vw;
+    font-size:2vw;
+    justify-content: flex-end;
+}
+.content-container {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    margin-top: 15vw;
+
+}
+.hr {
+    width: 100%;
+    height: .5vw;
+    background-color: black;
+}
+.name {
+    margin-left: 3vw;
+}
+.image {
+    position: absolute;
+    width: 50%;
+    height: 50%;
+    margin-top: 1vw;
+    margin-left: 3vw;
+    background-image: url(assets/guitar-science-GettyImages-1460054526.webp);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.info-hobbie {
+    position: absolute;
+    width: 40%;
+    height: 70%;
+    margin-left: 55vw;
+    margin-top:2vw;
+    font-size: 2vw;
+}
+.image-guitar {
+    position: absolute;
+    width: 50%;
+    height: 50%;
+    background-image: url(assets/Photo.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 30vw;
+    margin-left: 45vw;
+}
